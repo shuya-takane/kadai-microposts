@@ -17,6 +17,8 @@
       <li class="nav-item"><a href="<%= followers_user_path(@user) %>" class="nav-link <%= "active" if current_page?(followers_user_path(@user)) %>">Followers <span class="badge badge-secondary"><%= @count_followers %></span></a></li>
     </ul>
     <%= render "microposts/microposts", microposts: @microposts %>
+    <!--ここにお気に入りボタン入れる。エラー-->
+    
   </div>
 </div>
 
